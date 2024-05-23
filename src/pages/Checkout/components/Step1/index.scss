@@ -1,0 +1,46 @@
+//step1
+
+.transport-form {
+
+  .form-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input,
+    select {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    &:first-child,
+    &:last-child {
+      .form-group:first-child {
+        width: 30%;
+      }
+
+      .form-group:last-child {
+        width: 66%;
+      }
+    }
+
+    &:nth-child(2) {
+      .form-group {
+        width: 48.5%;
+      }
+    }
+
+  }
+
+}
