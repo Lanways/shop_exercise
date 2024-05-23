@@ -1,0 +1,49 @@
+//step3
+
+.step-content {
+
+  .payment-form {
+
+    input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .payment-info {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 24px;
+
+      label {
+        margin-bottom: 8px;
+      }
+    }
+
+    .payment-group {
+      display: flex;
+      justify-content: space-between;
+
+      .payment-expired {
+        display: flex;
+        flex-direction: column;
+        width: 47.5%;
+
+        label {
+          margin-bottom: 8px;
+        }
+      }
+
+      .payment-secret {
+        display: flex;
+        flex-direction: column;
+        width: 47.5%;
+
+        label {
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+}
