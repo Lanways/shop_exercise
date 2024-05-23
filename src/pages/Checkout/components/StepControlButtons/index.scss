@@ -1,0 +1,40 @@
+// StepControlButtons
+.control-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+
+  &.active {
+    justify-content: end;
+  }
+
+  button {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    cursor: pointer;
+
+    .left-arrow {
+      height: 24px;
+      margin-right: 12px;
+    }
+
+    .right-arrow {
+      height: 24px;
+      margin-left: 12px;
+    }
+
+    &:first-child {
+      background-color: #f0f0f0;
+    }
+
+    &:last-child {
+      background-color: #ff69b4;
+      color: #fff;
+    }
+  }
+}
