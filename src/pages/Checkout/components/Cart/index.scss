@@ -1,0 +1,76 @@
+.card-container {
+  width: 25%;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  padding: 24px 24px 0px;
+  margin-top: 24px;
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 0px 32px;
+  width: 100%;
+
+  h3 {
+    font-weight: bold;
+  }
+
+  .left-side {
+    display: flex;
+
+    img {
+      width: 120px;
+      border-radius: 6px;
+      margin-right: 24px;
+    }
+
+    .name-container {
+
+      p {
+        margin: 0px 0px 16px;
+      }
+
+      .quantity-control {
+        p {
+          padding-top: 2px;
+        }
+
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  .right-side {
+
+    p {
+      font-weight: bold;
+      margin-top: 0px;
+    }
+  }
+
+
+  .quantity-control {
+
+    display: flex;
+
+    button {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
+
+.feed,
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #f0f0f0;
+  margin-bottom: 20px;
+  width: 100%;
+}

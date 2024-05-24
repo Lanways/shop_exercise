@@ -1,15 +1,35 @@
-.checkout-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
+.checkout-page {
+  width: 1600px;
+  margin: auto;
 
+  .checkout-text {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      font-weight: 900;
+      width: 84%;
+    }
+  }
+
+  .main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    .checkout-container {
+      width: 40%;
+      padding: 0px;
+    }
+
+  }
+
+}
 
 // utility
 
 .step-content {
+  height: 320px;
   border-radius: 5px;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #f0eaea;
-  padding-bottom: 32px;
+  margin-bottom: 64px;
 }

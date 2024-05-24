@@ -2,20 +2,21 @@
 .control-buttons {
   display: flex;
   justify-content: space-between;
-  margin-top: 28px;
+  border-top: 1px solid #ccc;
 
   &.active {
     justify-content: end;
   }
 
   button {
-    width: 20%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
     border-radius: 8px;
     padding: 12px 20px;
+    margin-top: 30px;
     cursor: pointer;
 
     .left-arrow {
